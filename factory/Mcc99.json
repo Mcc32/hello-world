@@ -1,0 +1,9 @@
+{
+	"name": "Mcc99",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7e56c44e-b546-4630-85d0-5b16a932700c",
+		"tenantId": "988f7c32-40c6-4de8-9b58-972cf2c3f835"
+	}
+}

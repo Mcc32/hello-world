@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_apl",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "SQL database"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

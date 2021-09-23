@@ -1,0 +1,70 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EmployeeName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "JobTitle",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BasePay",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OvertimePay",
+				"type": "nvarchar"
+			},
+			{
+				"name": "OtherPay",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Benefits",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TotalPay",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TotalPayBenefits",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Notes",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Agency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Status",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SQL database"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
